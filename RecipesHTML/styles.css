@@ -1,0 +1,31 @@
+/* COLORS */
+:root {
+    --bgColor: #ddf7e3;
+    --lGreen: #C7E8CA;
+    --myGreen: #5D9C59;
+    --myRed: #DF2E38;
+}
+
+body {
+    background-color: var(--bgColor);
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+img {
+    border-radius: 25%;
+}
+
+.options {
+    font-weight: 600;
+    font-size: 30px;
+    justify-items: center;
+    align-items: center;
+}
+
+.anchor {
+    text-align: center;
+}
